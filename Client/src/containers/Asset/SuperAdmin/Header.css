@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+  .horizontal-width {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .DemmyHeader {
+    display: none;
+  }
+  .Flex_direction {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {}

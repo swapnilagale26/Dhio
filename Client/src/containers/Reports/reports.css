@@ -1,0 +1,181 @@
+.all-users-frame {
+  height: 48px;
+  border-radius: 8px;
+  background-color: #daf5ff;
+  border: 1px solid #00baff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 21px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+.active-users-frame,
+.generate-button,
+.users-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.active-users-frame {
+  flex-direction: row;
+  gap: 0 20px;
+  color: #00baff;
+}
+.generate-button,
+.users-frame {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 12px 0;
+}
+.users-frame {
+  border-radius: 8px;
+  background-color: "white";
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.08);
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.generate-button {
+  font-size: 20px;
+  font-weight: 600;
+}
+.users1 {
+  position: relative;
+  font-weight: 500;
+}
+
+.parent-box-a,
+.tickmark {
+  display: flex;
+  flex-direction: row;
+}
+.parent-box-a {
+  align-self: stretch;
+
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+
+.tickmark {
+  border-radius: 8px;
+  background-color: #00baff;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 16px 14px 20px;
+  color: white;
+  white-space: nowrap;
+  font-family: InterMedium;
+}
+
+.download-report {
+  /* Custom styling */
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #00baff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-report:hover {
+  background-color: #00baff;
+}
+
+.download-report:active {
+  background-color: #00baff;
+}
+
+
+
+
+.main-container .report-container {
+  padding: 20px;
+  font-family: InterBold;
+}
+
+.main-container .report-container .breadcrumb {
+  margin-bottom: 20px;
+}
+
+.report-container-action-bar {
+  display: flex;
+}
+
+.select-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  gap: 20px;
+}
+.department {
+  margin-bottom: 1%;
+
+  gap: 1%;
+}
+
+.report-container .form-field input[type='date'] {
+  height: 45px;
+  margin-bottom: 10px;
+
+  font-family: InterMedium;
+}
+.report-container .filters {
+  margin-top: 20px;
+  height: 42px;
+}
+.report-container .css-13cymwt-control {
+  height: 45px !important;
+}
+
+.report-container .primary-button {
+  margin-top: 20px;
+  background-color: #daf5ff;
+  border: 1px solid #00baff;
+  color: #00baff;
+  font-family: InterBold;
+  font-size: 16px;
+
+}
+.report-container .username {
+  margin-left: "5%" !important;
+}
+.report-container th:first-child {
+  margin-left: "5%" !important;
+}
+
+@media screen and (max-width: 768px) {
+  .active-users-frame {
+    flex-wrap: wrap;
+    gap: 10px
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .select-section {
+    flex-wrap: wrap;
+    gap: 10px
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .parent-box-a,
+  .tickmark {
+    flex-wrap: wrap;
+    gap: 15px
+  }
+
+}
+@media screen and (max-width: 576px) {
+  .generate-button {
+    flex-wrap: wrap;
+  }
+}

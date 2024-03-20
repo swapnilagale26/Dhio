@@ -1,0 +1,118 @@
+.invite-section{
+
+}
+
+.invite-section .filter-section {
+  width: 100%;
+}
+
+.invite-section .filter-section .search-bar {
+  flex: 1;
+}
+.invite-section .filter-section .search-bar input[type='text']{
+  width: 93%;
+}
+
+.invite-section .user-list {
+  margin-top: 20px;
+  padding: 10px;
+  background: var(--background2);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  min-height: 400px;
+}
+
+.invite-section .user-list .select-all-users{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.invite-section .user-list .select-all-users p{
+  flex: 1;
+}
+
+.invite-section .user-list .select-all-users .selector{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.invite-section .user-card .user-card-list {
+  display: flex;
+  gap: 10px;
+}
+.invite-section .user-list .user-card {
+  background: var(--primary-text-color);
+  align-items: center;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+}
+.invite-section .user-list .user-card img{
+  border-radius: 3px;
+}
+.invite-section .user-list .user-card .user-details {
+  flex: 1;
+}
+.invite-section .user-list .user-card .address{
+  border-radius: 3px;
+  font-family: InterLight;
+  font-size: 13px;
+}
+
+
+.user-list-horizontal {
+  display: flex;
+  overflow-x: auto; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  margin-top: 10px;
+  gap:5px;
+}
+
+/* .user-list-horizontal .user-card {
+  display: flex;
+} */
+
+.user-list-horizontal .user-image:first-child {
+
+  margin-left: 5px;
+}
+.user-list-horizontal .user-image {
+  
+  margin-left: 0px;
+}
+.user-Cardimage {
+  position: relative;
+}
+
+.user-info {
+  text-align: center; /* Center align the username */
+}
+.user-name {
+  margin-top: 5px; 
+  font-size: 10px;
+  
+}
+
+.close-icon-on-image {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 10px; 
+  height: 10px;
+  
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.close-icon-on-image svg {
+  fill: red; /* Change the color of the close icon to red */
+}

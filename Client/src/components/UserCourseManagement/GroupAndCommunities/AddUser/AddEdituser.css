@@ -1,0 +1,16 @@
+.Addhead {
+  margin-top: 1%;
+  margin-left: 9%;
+  margin-bottom: 2%;
+}
+.Searchnew{
+  width: 90%;
+}
+.Searchsection{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-top: 1%;
+margin-left: 10%;
+gap: 1%;
+}

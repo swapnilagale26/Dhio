@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px 0 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: var(--header-bg-color);
+}
+
+.settings-panel {
+  display: flex;
+  gap: 32px;
+}
+
+.settings-panel svg {
+  width: 25px;
+}
+
+.notifications {
+  display: inline-flex;
+}
+
+.notifications::after {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  content: attr(data-text);
+  padding: 0 8px;
+  color: var(--primary-text-color);
+  background: radial-gradient(circle closest-side, var(--danger-text-color) 98%, transparent 100%);
+  z-index: 10;
+  position: absolute;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.notification-section {
+  position: relative;
+  width: 100%;
+}
+.notification-panel {
+  position: absolute;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  margin-top: 10px;
+  border: 1px solid var(--incomplete-step-color);
+  border-radius: 8px;
+  padding: 10px;
+  background: var(--primary-text-color);
+  box-shadow: 1px 1px 1px 0px;
+  z-index: 10;
+}
+
+.survey-details {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.survey-details p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.complete-by {
+  font-size: 12px;
+}
+
+
+
+.profile-name {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.frame-icon2 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.i-t-icon {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.view-profile,
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.profile-info {
+  border-radius: 8px;
+  background-color: #273143;
+  border: 1.2px solid#fff;
+  padding: 10px 13px 10px 12px;
+  gap: 0 6px;
+}
+.view-profile {
+  gap: 0 24px;
+  z-index: 1;
+  color: #fff;
+}
+
+.logout-button {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 80%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1.2px solid#273143;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}

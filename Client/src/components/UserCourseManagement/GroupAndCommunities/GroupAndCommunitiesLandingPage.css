@@ -1,0 +1,99 @@
+@media only screen and (min-width: 1400px) {
+  .CourseFirstSection {
+    width: 73%
+  }
+  .CourseSecondSection {
+    width: 23%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .GroupAndCommunities {
+    width: 96%;
+    font-size: 20px;
+    padding: 2%;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+  .CourseFirstSection {
+    width: 73%
+  }
+  .CourseSecondSection {
+    width: 23%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .GroupAndCommunities {
+    width: 96%;
+    font-size: 20px;
+    padding: 2%;
+
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .CourseFirstSection {
+    width: 95%
+  }
+  .CourseSecondSection {
+    width: 95%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .GroupAndCommunities {
+    width: 96%;
+    font-size: 20px;
+    padding: 2%;
+
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .CourseFirstSection {
+    width: 95%
+  }
+  .CourseSecondSection {
+    width: 95%;
+  }
+  .GroupAndCommunities {
+    width: 96%;
+    font-size: 16px;
+    padding: 2%;
+
+  }
+}
+@media only screen and (max-width: 576px) {
+  .CourseFirstSection {
+    width: 95%
+  }
+  .CourseSecondSection {
+    width: 95%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .GroupAndCommunities {
+    width: 110%;
+    font-size: 14px;
+    padding: 2%;
+
+  }
+  .IconHide {
+    display: none;
+  }
+  .Flex_Spacing {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {}

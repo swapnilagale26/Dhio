@@ -1,0 +1,86 @@
+.primary-button,
+.secondary-button,
+.ternary-button,
+.quartary-button,
+.hex-button,
+.customborder-button,
+.startnow-button {
+  height: 32px;
+  min-width: 80px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.primary-button {
+  background: var(--active-menu-background);
+  color: var(--primary-text-color);
+  margin-top: 0;
+}
+.secondary-button {
+  border: 1px solid var(--active-menu-background);
+  color: var(--active-menu-background);
+}
+
+
+.ternary-button {
+  border: 1px solid var(--danger-text-color);
+  color: var(--danger-text-color);
+}
+.quartary-button {
+  border: 1px solid var(--active-menu-background);
+  color: var(--active-menu-background);
+  background-color: #DAF5FF;
+}
+
+.hex-button {
+  border: 1px solid var(--active-menu-background);
+  color: #FFFFFF;
+  background-color: #00BAFF;
+}
+.customborder-button {
+  background: var(--uploader-buttons-bg);
+  border: 2px solid var(--uploader-buttons-bg);
+  color: white;
+}
+.startnow-button {
+  background: rgba(0, 186, 255, 1);
+  color: white;
+  border: 2px solid rgba(0, 186, 255, 1);
+}
+
+
+
+.primary-button .disabled,
+.secondary-button .disabled,
+.ternary-button .disabled {
+  cursor: none;
+}
+.primary-button:disabled {
+  background: var(--disabled);
+}
+.secondary-button:disabled {
+  border: 1px solid var(--disabled);
+  color: var(--disabled);
+}
+.ternary-button:disabled {
+  border: 1px solid var(--disabled);
+  color: var(--disabled);
+}
+.primary-button .auto-renewal {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .hex-button {
+    height: 25px;
+    min-width: 80px;
+    padding: 2px 5px !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

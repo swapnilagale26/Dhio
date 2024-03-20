@@ -1,0 +1,60 @@
+.sectionBadge {
+  width: 328px;
+  height: 386px;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 12px;
+}
+.sectionBadge h2 {
+  font-size: 20px;
+}
+.inter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.newbutton {
+  background-color: rgba(0, 186, 255, 1);
+  color: white;
+  border-radius: 5px;
+  width: 25%;
+  border: none;
+  height: 33px;
+}
+.d-flex-1 {
+  display: flex;
+  gap: 5%;
+}
+.d-flex-gap {
+  margin-left: 2%;
+}
+.imgd {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+} 
+.font p {
+  font-size: 12px;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 576px) {
+  .sectionBadge {
+    width: 95%;
+  }
+  .newbutton {
+    width: 19%;
+    height: 27px;
+    font-size: 9px;
+  }
+  .font p {
+    font-size: 10px;
+    
+}
+}
+
+@media screen and(max-width: 768px) {}
+@media screen and(max-width: 992px) {}
+@media screen and(max-width: 1200px) {}
+@media screen and(min-width: 1400px) {}

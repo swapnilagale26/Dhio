@@ -1,0 +1,49 @@
+@media only screen and (max-width: 992px) {
+  .CourseFirstSection {
+    width: 73%
+  }
+  .CourseSecondSection {
+    width: 23%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .CourseDetail {
+    width: 96%;
+    font-size: 20px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .CourseFirstSection {
+    width: 73%
+  }
+  .CourseSecondSection {
+    width: 23%;
+  }
+  .CourseDetail {
+    width: 96%;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .CourseFirstSection {
+    width: 95%
+  }
+  .CourseSecondSection {
+    width: 95%;
+  }
+  .CourseDetailTop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .userImageSize {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .hideImage {
+    display: none;
+  }
+}

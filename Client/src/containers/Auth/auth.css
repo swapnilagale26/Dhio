@@ -1,0 +1,63 @@
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  font-family: InterMedium;
+}
+
+.auth-left-section{
+  position: relative;
+}
+
+.auth-left-section .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+hr {
+  margin: 20px 0;
+}
+.auth-left-section .content .logo {
+  margin-top: 56px;
+  margin-left: 40px;
+}
+.auth-left-section .content .bg2 {
+  margin-top: 45px;
+}
+
+.auth-left-section .content .slogan {
+  margin-left: 60px;
+  color: var(--primary-text-color);
+}
+
+.auth-right-section {
+  width: 720px;
+}
+.auth-right-section .login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.auth-right-section .primary-button {
+  width: 100%;
+}
+
+.login-form .form-field input[type='text'],
+.login-form .form-field input[type='password'] {
+  padding: 0 0 0 35px;
+}
+.login-form .form-field .mail-icon,
+.login-form .form-field .lock-icon {
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 10px;
+}
+
+.login-form .error {
+  color: var(--danger-text-color);
+  font-size: 10px;
+}

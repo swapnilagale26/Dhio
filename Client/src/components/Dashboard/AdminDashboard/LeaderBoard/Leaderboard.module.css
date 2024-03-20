@@ -1,0 +1,164 @@
+.mb {
+  margin-bottom: 10px;
+}
+.mb-3 {
+  margin-bottom: 16px;
+}
+.mr {
+  margin-right: 2rm;
+}
+.mr-2 {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+.mb-2{
+    margin-bottom:5px ;
+}
+
+.cardCommunities {
+  /* width: 24vw; */
+  /* width: 350px; */
+  /* min-width:100%; */
+  /* height:auto; */
+  width: 322px;
+  height: 251px;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 12px;
+
+  /* transform: translatey(-50%);  */
+
+  /* margin-bottom: ; */
+  /* justify-content: flex-end; */
+}
+.communitiscontainer{
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 95%;
+}
+.card-body {
+  padding: 12px;
+}
+.font-weight-600 {
+  font-weight: 400px;
+  font-size: 19px;
+}
+.d-flex,
+.d-flex-align-center {
+  display: flex;
+}
+.d-flex-justify {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex-align-center {
+  /* align-items: center; */
+}
+.see_all_button {
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+ 
+}
+
+section.card-section button.btn-blue-lighter {
+  padding: 14px;
+  border: none;
+  font-size: 12px;
+  margin: 10px 0 10px 0;
+  background-color: #daf5ff;
+  border-radius: 10px;
+  color: #00baff;
+}
+
+i {
+  font-size: 25px;
+}
+small {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.font-weight-600 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .cardCommunities {
+    margin-top: 35px;
+    width: 100%;
+    transform: none;
+    
+  }
+
+}
+@media  screen and (min-width:940px) and (max-width:1000px){
+    .cardCommunities{
+        height: 19em;
+        width: 38vw;
+        margin-top: 27px;
+
+    }
+  
+   
+}
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  .cardCommunities {
+    margin-top: 30px;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container {
+    height: 21rem;
+    width: 65vw;
+    margin-top: 52px;
+    transform: none;
+    padding: 12%;
+    
+  }
+}
+@media screen and (max-width: 1000px) {
+  .cardCommunities {
+    height: 21rem;
+    width: 100%;
+    margin-top: 56px;
+    transform: none;
+    padding: 12%;
+}
+}

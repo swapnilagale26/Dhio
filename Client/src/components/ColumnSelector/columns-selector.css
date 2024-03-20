@@ -1,0 +1,34 @@
+.popup-filters {
+  font-family: InterMedium;
+  font-size: 16px;
+  position: absolute;
+  z-index: 1;
+  padding: 15px;
+  left: -150px;
+  width: 180px;
+  border-radius: 10px;
+  border: 1px solid var(--input-field-border-color);
+  background-color: var(--primary-text-color);
+}
+.popup-filters .column-selector {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.select-all {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--input-field-border-color);
+}
+
+.popup-filters .action-bar {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.popup-filters .form-field input {
+  width: auto !important;
+}

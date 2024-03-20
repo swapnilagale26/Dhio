@@ -1,0 +1,214 @@
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 500px;
+}
+
+.survey-form h4,
+.survey-form h5 {
+  font-family: InterRegular;
+}
+
+.survey-form .question-group {
+  font-family: InterRegular;
+}
+
+.columns-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+}
+
+.columns-2 .question-group-type {
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
+.objectives {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  font-family: InterRegular;
+  padding: 10px;
+}
+.template-cards {
+  display: grid;
+  height: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+
+}
+
+.template-card {
+  border: 2px solid #00BAFF;
+  padding: 20px;
+  font-family: Inter;
+
+
+
+}
+
+.template-title input[type="radio"] {
+  margin-left: 90px;
+
+}
+
+.template-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.template-card p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+
+
+/* Modal container */
+.modal-bar {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  z-index: 999;
+  /* Ensure modal is on top */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff;
+  width: 100%;
+  /* Adjust width as needed */
+  max-width: 600px;
+  /* Max width for larger screens */
+  margin: 100px auto;
+  /* Center modal vertically and horizontally */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Shadow effect */
+}
+
+/* Close button */
+.modal-content button {
+  background-color: #00BAFF;
+  /* Blue color for button */
+  color: #fff;
+  /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+.modal-content button:hover {
+  background-color: #00BAFF;
+
+}
+
+
+.modal-content button.close-button:hover {
+  background-color: #00BAFF;
+  color: #fff;
+
+}
+
+/* Input fields */
+.modal-content input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 5px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-container p {
+  margin-bottom: 10px;
+}
+.options-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.ques-options {
+  margin-right: 10px;
+}
+.ques-options input[type="text"] {
+  width: 380px;
+}
+
+.correct-answer {
+  color: #5CB85C;
+  font-weight: bold;
+}
+
+.frame-icon1 {
+  /* height: 24px;
+  width: 24px; */
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+  vertical-align: middle;
+
+}
+
+.main-container .survey-container {
+  padding: 20px;
+  font-family: InterBold;
+}
+
+.main-container .survey-container .breadcrumb {
+  margin-bottom: 20px;
+}
+
+.survey-container .action-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+
+}
+.survey-container .action-bar .secondary-button,
+.primary-button {
+  margin-left: 10px;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .survey-container .action-bar .secondary-button,
+  .primary-button {
+    margin-top: 80px;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .survey-container .action-bar .secondary-button,
+  .primary-button {
+    margin-top: 100px;
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .survey-container .action-bar .secondary-button,
+  .primary-button {
+    margin-top: 350px;
+
+  }
+}

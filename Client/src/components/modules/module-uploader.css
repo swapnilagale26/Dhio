@@ -1,0 +1,63 @@
+.module-uploader .primary-button,
+.module-uploader .secondary-button,
+.module-uploader .ternary-button {
+  height: 32px;
+  min-width: 80px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.module-uploader .primary-button {
+  background: var(--uploader-buttons-bg);
+  color: var(--primary-text-color);
+}
+
+.module-uploader .secondary-button,
+.module-uploader .ternary-button {
+  border: 1px solid var(--uploader-buttons-bg);
+  color: var(--uploader-buttons-bg);
+
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow flex items to wrap to the next line */
+  margin-right: -20px;
+  /* Negative margin to counteract margin added to last child */
+}
+
+.form-row .form-field {
+  margin-right: 20px;
+  margin-bottom: 15px;
+  flex: 1 1 200px;
+}
+
+.option {
+  margin-left: 165px;
+}
+
+.module-uploader .action-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.module-button {
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid var(--active-menu-background); */
+  color: var(--active-menu-background);
+  height: 32px;
+  min-width: 80px;
+  padding: 8px 15px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.action-box .secondary-button {
+  margin-right: 20px;
+}

@@ -1,0 +1,61 @@
+
+ 
+  @media (min-width: 200px) {
+    .dashboardCalender {
+      display: none;
+    }
+    .flex-direction {
+      flex-direction: column;
+    }
+    .SuperAdminfirstSection{
+      width: 98%;
+    }
+  }
+  
+  @media (min-width: 350px) { 
+    /* Medium screens and larger */
+   .dashboardCalender {
+      display: none;
+    }
+    .secondSection{
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .dashboardCalender {
+      display: none;
+    }
+    
+  }
+  
+  @media (min-width: 576px) {
+    .dashboardCalender {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) { 
+    /* Large screens and larger */
+  
+     .secondsection {
+      width: 32%;
+    }
+    .SuperAdminfirstSection{
+      width: 98%;
+   }
+  }
+  
+  @media (min-width: 950px) {
+    /* Medium screens and larger */
+   
+    
+    .flex-direction {
+      flex-direction: row;
+    }
+   .SuperAdminfirstSection{
+      width: 98%;
+   }
+  
+  } 
+  

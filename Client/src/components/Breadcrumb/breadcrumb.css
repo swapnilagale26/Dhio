@@ -1,0 +1,26 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-family: InterRegular;
+}
+
+.breadcrumb .breadcrumb-home {
+  cursor: pointer;
+  padding: 0px;
+}
+.breadcrumb .breadcrumb-home path{
+  fill: var(--active-menu-background);
+}
+
+.breadcrumb .menu-label {
+  color: var(--active-menu-background);
+  text-decoration: none;
+}
+
+.breadcrumb .menu-label:last-child {
+  color: var(----incomplete-step-color);
+  text-decoration: none;
+  cursor: auto
+}

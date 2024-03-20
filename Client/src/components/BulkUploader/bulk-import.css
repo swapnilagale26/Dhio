@@ -1,0 +1,35 @@
+.bulk-import{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: InterRegular;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.upload-section {
+  flex: 2;
+}
+.dropzone-content {
+  position: absolute;
+  height: 150px;
+  border: 1px dashed var(--incomplete-step-color);
+  background-color: var(--transparent-dark-color2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-section .file-uploader {
+  height: 150px;
+  background-color: var(--background2);
+  border: 1px dashed var(--incomplete-step-color);
+  border-radius: 10px;
+}
+.upload-section .hint {
+  font-size: 14px;
+  color: var(--incomplete-step-color);
+}
+.template-section {
+  flex: 1;
+}

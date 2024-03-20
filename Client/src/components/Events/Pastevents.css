@@ -1,0 +1,42 @@
+.events{
+  width: 329px;
+  height: 289px;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 12px;
+}
+.midpast{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+  
+}
+.badgename {
+  display: flex;
+  gap: 5%;
+}
+.backc {
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(251, 251, 251, 1);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.fontP p {
+  font-size: 14px;
+  margin-top: 4%;
+}
+.fontP h3 {
+  font-size: 14px;
+}
+.imgpast{
+  padding-top:2% ;
+}
+
+@media only screen and (max-width: 576px) {
+  .events{
+    width: 95%; 
+  }
+}

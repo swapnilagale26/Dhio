@@ -1,0 +1,11 @@
+.message-input {
+  border: none;
+  outline: none;
+}
+
+.message-input::placeholder {
+  color: #c4c4c4;
+}
+.min-Width {
+  min-width: 30px;
+}

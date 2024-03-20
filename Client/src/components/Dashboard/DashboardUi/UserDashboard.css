@@ -1,0 +1,59 @@
+
+  
+   @media (max-width: 768px){
+      
+  } 
+  
+  
+  
+  @media (min-width: 200px) {
+    .dashboardCalender{
+        display: none;
+    }
+  
+  }
+  
+  
+  
+  @media (min-width: 350px) {
+    /* Medium screens and larger */
+    .dashboardCalender{
+        display: none;
+    }
+    
+  }
+  
+  @media (min-width: 400px) {
+    .dashboardCalender{
+        display: none;
+    }
+     
+    }
+
+  
+  @media (max-width: 576px) {
+    .dashboardCalender{
+        display: none;
+
+    }
+    .flexArrangement{
+      flex-direction: column;
+    }
+     
+    }
+  
+  @media (min-width: 768px) {
+    /* Large screens and larger */
+    .flexArrangement{
+      flex-direction: row;
+    }
+   
+  }
+  
+  @media (min-width: 950px) {
+    /* Medium screens and larger */
+    .dashboardCalender{
+        display: block;
+    }
+  }
+  

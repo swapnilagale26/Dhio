@@ -1,0 +1,55 @@
+.popup-message {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+  color: var(--primary-text-color);
+  z-index: 10;
+}
+
+.success,
+.error {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  width: 80px;
+  border-radius: 10px 0 0 10px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: green;
+  width: 250px;
+  padding: 10px;
+  font-family: InterMedium;
+}
+.message p {
+  font-family: InterRegular;
+}
+
+.close-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  width: 50px;
+  border-radius: 0 10px 10px 0;
+}
+
+.close-icon svg path {
+  fill: var(--primary-text-color);
+}
+
+.error .mark,
+.error .message,
+.error .close-icon {
+  background-color: var(--danger-text-color);
+}

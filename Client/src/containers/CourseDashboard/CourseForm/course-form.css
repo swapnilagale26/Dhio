@@ -1,0 +1,257 @@
+.course-form {
+  display: flex;
+  flex-direction: column;
+  font-family: InterRegular;
+  gap: 20px;
+  height: 100px;
+}
+.form-stepper {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  color: var(--incomplete-step-color);
+  width: 100%;
+  /* Set the width to 100% or a specific value */
+  padding: 15px;
+  /* Adjust padding to increase space around the steps */
+  border: 2px solid var(--input-field-border-color);
+  border-radius: 8px;
+}
+.form-step {
+  border-right: 1px solid var(--input-field-border-color);
+  padding-right: 80px;
+  height: 25px;
+}
+.form-step:last-child {
+  border-right: none;
+}
+
+.form-step span {
+  border: 2px solid var(--incomplete-step-color);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.active-step {
+  color: var(--complete-step-color);
+  border-right: 1px solid var(--complete-step-color);
+}
+.active-step span {
+  border: 2px solid var(--complete-step-color);
+}
+.completed-step {
+  background-color: var(--complete-step-color);
+  /* Fill the circle with color for completed steps */
+  color: white;
+  /* Set the tick color to white */
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+div[class*="container"] div[class*="Input"] {
+  margin: 0;
+  padding: 0;
+}
+
+.main-section {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.main-section > div {
+  flex: 1;
+  background: var(--background2);
+  padding: 20px;
+}
+.main-section .counter {
+  width: 20px !important;
+  min-width: 20px;
+}
+.course-type-img {
+  width: 100px;
+}
+.course-structure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: min-content;
+}
+.courses-card {
+  border-radius: 8px;
+  background: var(--primary-text-color);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  padding: 30px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+.added-card .added-type circle {
+  fill: var(--active-menu-background);
+}
+.added-card .added-type path {
+  fill: var(--card-icons);
+}
+/* .selected-section {
+  background-color: #daf5ff;  
+} */
+.course-type-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.structure .course-type {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.course-tree > h3 {
+  border-bottom: 2px solid var(--card-icons);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.course-type {
+  display: flex;
+  align-items: center;
+  background: var(--primary-text-color);
+  border: 1px solid var(--incomplete-step-color);
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 0 20px 0 10px;
+  cursor: move;
+}
+.course-type > svg {
+  cursor: pointer;
+}
+.step-name {
+  width: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.course-form .action-bar {
+  margin-top: 20px;
+}
+
+.button-container {
+  background: var(--active-menu-background);
+  color: var(--primary-text-color);
+  height: 32px;
+  padding: 0 5px;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-import {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: InterRegular;
+  gap: 20px;
+}
+
+.review-step {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 8px;
+  background: var(--primary-text-color);
+
+  /* Card Shadow */
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.08);
+}
+
+.review-step img {
+  width: 250px;
+}
+.review-step .selectedCourse {
+  flex: 1;
+}
+
+.review-step .data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.review-step .data-container .skills {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.review-step .data-container .skill {
+  padding: 5px 10px;
+  color: var(--active-menu-background);
+  background: var(--card-icons);
+  border-radius: 8px;
+}
+
+.review-step .data-container .course-header,
+.review-step .data-container .course-short-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .review-step .data-container .course-short-info p {
+  margin: 0;
+ 
+} */
+
+.review-step .data-container .course-short-info .icon {
+
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.review-step .data-container .course-header h3 {
+  min-width: 350px;
+  flex: 1;
+}
+
+.disabled-rating {
+  pointer-events: none;
+}
+
+.file-uploader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.selected-section {
+  background-color: #daf5ff;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  color: #00baff;
+
+  border: none;
+}
+
+.selected-section:hover {
+  background-color: #daf5ff;
+}
+.previously-selected-section {
+  /* Styles for previously selected section */
+  background-color: #daf5ff;
+  /* You can adjust the shade of blue as needed */
+}

@@ -1,0 +1,66 @@
+h4 {
+  margin-top: 20px;
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+.cost-investment-section {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--incomplete-step-color);
+}
+
+.external-cost {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.external-cost .form-fields-in-row {
+  flex: 1;
+}
+
+.external-cost svg {
+  min-width: 30px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 780px) {
+  .cost-investment-section .form-fields-in-row {
+    flex-direction: column;
+  }
+  .external-cost .form-fields-in-row {
+    flex-direction: column;
+  }
+}
+
+.cost-investment-total {
+  background: rgb(249, 164, 0, 0.2);
+  padding: 15px;
+  margin: 15px 0 20px 0;
+  border-radius: 6px;
+  text-align: right;
+}
+
+.grand-total {
+  background: lightgreen;
+  padding: 15px;
+  margin: 0 0 20px 0;
+  border-radius: 6px;
+  text-align: right;
+}
+
+
+.button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-box .module-button:nth-child(1) {
+  margin-right: 20px;
+}
+.button-box .module-button {
+  border: 1px solid var(--active-menu-background);
+  min-height: auto;
+}

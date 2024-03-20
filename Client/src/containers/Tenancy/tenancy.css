@@ -1,0 +1,91 @@
+.table-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-section {
+  display: flex;
+  gap: 5px;
+}
+.search-bar {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+}
+.search-field {
+  height: 30px;
+  padding-left: 28px;
+  padding-right: 5px;
+  border: 1px solid var(--input-field-border-color);
+  border-radius: 5px;
+  width: 90%;
+}
+.search-icon {
+  width: 20px;
+  left: 5px;
+  bottom: 3px;
+  position: absolute;
+}
+
+.content-zone {
+  margin: 20px 0;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+}
+.publish-now {
+
+  height: 25px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--primary-text-color);
+  background-color: #f9a400;
+  gap: 10px
+}
+.authorized-users {
+  display: flex;
+  justify-content: center;
+}
+.user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -16px;
+}
+.add-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #f9a400;
+  border: 2px dotted #f9a400;
+  margin-left: -16px;
+}
+.tenancy-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.form-field .error {
+  color: var(--danger-text-color);
+  font-size: 10px;
+}
+.filters {
+  position: relative;
+}
+
+.bulk-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+.bulk-edit .bulk-delete-image {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+
+.sectionFirst{
+    width: 100%;
+}
+
+
+.sectionFirst .flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionFirst .flex div{
+    display: flex;
+}

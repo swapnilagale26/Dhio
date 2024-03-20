@@ -1,0 +1,24 @@
+.popup-filters {
+  font-family: InterMedium;
+  font-size: 16px;
+  position: absolute;
+  z-index: 1;
+  padding: 15px;
+  left: -150px;
+  width: 180px;
+  border-radius: 10px;
+  border: 1px solid var(--input-field-border-color);
+  background-color: var(--primary-text-color);
+}
+
+.form-fields-in-row .radio-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.popup-filters .primary-button,
+.popup-filters .secondary-button {
+  margin-bottom: 10px;
+  width: 100%;
+}

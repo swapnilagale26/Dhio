@@ -1,0 +1,14 @@
+.dashboard-user .users-actions {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.dashboard-user .file-uploader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 40px;
+}

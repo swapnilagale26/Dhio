@@ -1,0 +1,11 @@
+.username {
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.username img {
+  border-radius: 25%;
+  height: 30px;
+  width: 30px;
+}

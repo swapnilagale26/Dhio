@@ -1,0 +1,83 @@
+:root {
+  --dark-color: #000;
+  --background2: #FBFBFB;
+  --transparent-dark-color: rgba(0, 0, 0, 0.4);
+  --transparent-dark-color2: rgba(0, 0, 0, 0.1);
+  --header-bg-color: #273143;
+  --active-menu-background: #00BAFF;
+  --sidebar-background-color: #273143;
+  --container-background-color: #F3F4F7;
+  --primary-background-color: #00BAFF;
+  --secondary-background-color: #1D5E90;
+  --primary-text-color: #FFFFFF;
+  --danger-text-color: #D05858;
+  --active-menu-text-color: #273143;
+  --inactive-menu-text-color: #FFFFFF;
+  --loader-background: #000077;
+  --table-header-background: #F4F4F4;
+  --input-field-border-color: #C6C9CB;
+  --complete-step-color: #F9A400;
+  --incomplete-step-color: #ABABAB;
+  --disabled: #ababab;
+  --primary-color: #273143;
+  --card-icons: #DAF5FF;
+  --uploader-buttons-bg: #F9A400;
+  --backgroud-inprocess-button:rgba(218, 245, 255, 1);
+}
+/* Responsive breakpoints
+Extra small	< 576px
+Small	≥ 576px
+Medium ≥ 768px
+Large	≥ 992px
+Extra large ≥ 1200px
+Extra extra large	≥ 1400px
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'InterBlack';
+  src: local('InterBlack'),
+    url('./static/fonts/Inter-Black.ttf');
+}
+@font-face {
+  font-family: 'InterRegular';
+  src: local('InterRegular'),
+    url('./static/fonts/Inter-Regular.ttf');
+}
+@font-face {
+  font-family: 'InterMedium';
+  src: local('InterMedium'),
+    url('./static/fonts/Inter-Medium.ttf');
+}
+@font-face {
+  font-family: 'InterBold';
+  src: local('InterBold'),
+    url('./static/fonts/Inter-Bold.ttf');
+}
+@font-face {
+  font-family: 'InterExtraBold';
+  src: local('InterExtraBold'),
+    url('./static/fonts/Inter-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'InterSemiBold';
+  src: local('InterSemiBold'),
+    url('./static/fonts/Inter-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'InterLight';
+  src: local('InterLight'),
+    url('./static/fonts/Inter-Light.ttf');
+}
+@font-face {
+  font-family: 'InterExtraLight';
+  src: local('InterExtraLight'),
+    url('./static/fonts/Inter-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'InterThin';
+  src: local('InterThin'),
+    url('./static/fonts/Inter-Thin.ttf');
+}
