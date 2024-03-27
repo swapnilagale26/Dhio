@@ -42,6 +42,7 @@ import ActiveUserReports from "../containers/Reports/ActiveUserReports";
 import CourseReports from "../containers/Reports/CourseReports";
 import LeaderBoardReports from "../containers/Reports/LeaderBoardReports";
 import UserReport from "../containers/Reports/UserReport";
+import Formmain from "../containers/Forms/Formmain";
 
 //  Super Admin nevigation bar
 export const navRoutes = [
@@ -177,7 +178,7 @@ export const routes = [
   },
   {
     pathname: "/user",
-    component: <UserDashboard />,
+    component: <Formmain />,
   },
   {
     pathname: "/asset",
