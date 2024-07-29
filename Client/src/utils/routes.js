@@ -22,6 +22,7 @@ import {
   AssetIcon,
   GroupIcon,
   CommunitiesIcon,
+  CustomerIcon,
 } from "../icons";
 import AdminDashboard from "../components/Dashboard/AdminDashboard/AdminDashboard";
 import SuperAdminDashboard from "../components/Dashboard/SuperAdminDashboard/SuperAdminDashboard";
@@ -59,9 +60,9 @@ export const navRoutes = [
     component: <TenancyDashboard />,
   },
   {
-    pathname: "/user",
-    label: "User Management",
-    icon: <UserIcon />,
+    pathname: "/customers",
+    label: "Customers",
+    icon: <CustomerIcon />,
     component: <UserDashboard />,
   },
   {
@@ -177,7 +178,7 @@ export const routes = [
     component: <UserForm />,
   },
   {
-    pathname: "/user",
+    pathname: "/customers",
     component: <Formmain />,
   },
   {

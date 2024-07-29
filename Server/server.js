@@ -12,10 +12,11 @@ const app = express();
 const port = process.env.PORT || 8001;
 app.use(
   cors({
-    origin: true, // it allow all origin 
+    origin: true, // it allow all origin
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
-    maxAge: 3600,
+    maxAge: 3600, //This option specifies how long the preflight request (OPTIONS) can be cached by the client, in seconds.
+    // It helps to reduce the number of preflight requests by allowing the browser to cache the result.
     exposedHeaders: ["set-cookie"],
   })
 );

@@ -17,6 +17,8 @@ export const fetchTenancies = createAsyncThunk('fetchTenancies', async () => {
     .catch(err => err?.response?.data);
 });
 
+
+// to save new tency in database
 export const postTenancy = createAsyncThunk('postTenancy', async (data) => {
   tokenSetup();
   return await axios.post(`/api/tenancy`, data)
@@ -31,6 +33,8 @@ export const deleteTenancyCall = createAsyncThunk('deleteTenancy', async (tenanc
     .catch(err => err?.response?.data);
 });
 
+
+// update the tency
 export const updateTenancy = createAsyncThunk('updateTenancy', async (data) => {
   tokenSetup();
   return await axios.put(`/api/tenancy/${data._id}`, data)
